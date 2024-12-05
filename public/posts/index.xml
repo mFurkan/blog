@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bu İlk Yazımdır</title>
-      <link>http://localhost:1313/blog/posts/ilk-yazi/</link>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/ilk-yazi/</guid>
-      <description>Deneme açıklaması</description>
+      <title>Fedora 41 Nasıl Kurulur? Adım Adım Kurulum Rehberi</title>
+      <link>http://localhost:1313/blog/posts/fedora-41-nasil-kurulur/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/fedora-41-nasil-kurulur/</guid>
+      <description>Fedora&amp;#39;nın kişisel bilgisayarlara nasıl kurulacağını adım adım anlattığım rehber niteliğinde yazım.</description>
     </item>
   </channel>
 </rss>
