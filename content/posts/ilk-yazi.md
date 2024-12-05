@@ -1,9 +1,10 @@
 ---
 title: "Bu İlk Yazımdır"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-12-05
 # weight: 1
 # aliases: ["/first"]
 tags: ["ilk"]
+categories: ["Kişisel"]
 author: "Furkan YILMAZ"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -25,9 +26,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "https://www.adslzone.net/app/uploads-adslzone.net/2020/07/LINUX.jpg" # image path/url
+    alt: "<Linux Resmi>" # alt text
+    caption: "<Linux Torvalds>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 ---
