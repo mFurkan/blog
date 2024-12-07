@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora Kurulumu Sonrası Yapılacaklar</title>
+      <link>http://localhost:1313/blog/posts/fedora-41-kurulum-sonrasi-yap%C4%B1lacaklar/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/fedora-41-kurulum-sonrasi-yap%C4%B1lacaklar/</guid>
+      <description>Fedora kurulumu sonrasında yapılacaklar hakkında önerilerimin yer aldığı yazım.</description>
+    </item>
     <item>
       <title>Fedora 41 Nasıl Kurulur? Adım Adım Kurulum Rehberi</title>
       <link>http://localhost:1313/blog/posts/fedora-41-nasil-kurulur/</link>
