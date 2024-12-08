@@ -12,7 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Fedora kurulumu sonrasında yapılacaklar hakkında önerilerimin yer aldığı yazım."
+description: "Şifrelerinizi güvenli bir şekilde saklayabileceğiniz ve işlevsel bir şekilde kullanabileceğiniz yazılım önerileri."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
