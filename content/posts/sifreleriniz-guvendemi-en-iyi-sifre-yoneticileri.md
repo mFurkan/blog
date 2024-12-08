@@ -1,5 +1,5 @@
 ---
-title: "Şifrelerniz Güvde mi? En İyi Şifre Yöneticisi Önerilerim"
+title: "Şifreleriniz Güvende mi? En İyi Şifre Yöneticisi Önerilerim"
 date: 2024-11-23
 # weight: 1
 # aliases: ["/first"]
