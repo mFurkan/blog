@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitwaren</title>
+      <link>http://localhost:1313/blog/tags/bitwaren/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/bitwaren/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KeePassXC</title>
+      <link>http://localhost:1313/blog/tags/keepassxc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/keepassxc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Şifre Yöneticisi</title>
+      <link>http://localhost:1313/blog/tags/%C5%9Fifre-y%C3%B6neticisi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/%C5%9Fifre-y%C3%B6neticisi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Fedora</title>
       <link>http://localhost:1313/blog/tags/fedora/</link>
