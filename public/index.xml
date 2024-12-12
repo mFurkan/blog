@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Şifrelerniz Güvde mi? En İyi Şifre Yöneticisi Önerilerim</title>
+      <title>LocalSend ile Mobil ve PC Arasında Hızlı - Güvenli Dosya Transferi</title>
+      <link>http://localhost:1313/blog/posts/localsend-dosya-transferi/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/localsend-dosya-transferi/</guid>
+      <description>Mobil cihazlarınız ve PC arasında kolay, hızlı ve güvenli bir şekilde dosya transferi yapabilirsiniz.</description>
+    </item>
+    <item>
+      <title>Şifreleriniz Güvende mi? En İyi Şifre Yöneticisi Önerilerim</title>
       <link>http://localhost:1313/blog/posts/sifreleriniz-guvendemi-en-iyi-sifre-yoneticileri/</link>
       <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/sifreleriniz-guvendemi-en-iyi-sifre-yoneticileri/</guid>
-      <description>Fedora kurulumu sonrasında yapılacaklar hakkında önerilerimin yer aldığı yazım.</description>
+      <description>Şifrelerinizi güvenli bir şekilde saklayabileceğiniz ve işlevsel bir şekilde kullanabileceğiniz yazılım önerileri.</description>
     </item>
     <item>
       <title>Fedora Kurulumu Sonrası Yapılacaklar</title>
