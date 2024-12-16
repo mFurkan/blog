@@ -44,9 +44,9 @@ GitHub Pages, GitHub kullanıcılarının kendi kişisel blog, CV veya proje web
 - **Alan Adı (Domain) Desteği:** GitHub Pages, sizlere ücretsiz bir şekilde kullanabileceğiniz sub domain desteği sunuyor. Örneğin; *"https://kullanaciadiniz.github.io/"* şeklinde veya *"https://kullaniciadiniz.github.io/depoismi/"* şeklinde bir alan adına sahip olabiliyorsunuz. Aynı zamanda ücretli bir şekilde satın aldığınız domain uzantılarını da GitHub Pages ile kullanarak web sayfalarınızı özel bir alan adıyla yayına alabiliyorsunuz. 
 ### GitHub Pages Kullanım Limitleri Nedir? 
 GitHub Pages, sizlere ücretsiz bir hizmet sunuyor sunmasına da elbette bunun için bir kullanım sınırı da belirliyor. Ancak bu sınırlar gözünüzü çok kokurtmasın. Zira biz *statik web site oluşturucu* kullanacağımızdan bu sınırlar bize fazlasıyla yetecektir. Peki, bu limitler nelerdir? *Bknz. [GitHub Pages Kullanım Limitleri](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits)*
-1. **Depo Alanı Sınırı:** GitHub, genel olarak depolarının toplam büyüklüğünün **1 GB**'dan fazla olmasına izin vermiyor. Bu da bizim web site boyutumuzun da bu sınırı aşmaması gerekiyor. Eğer web sitenizde kullandığınız görsel, video vb. büyük boyutlu belgeleri deponuzda barındırmazsanız, HUGO altyapısında bu depolama alanı bize fazlasıyla yetecektir. Genel olarak HUGO'nın dosyaları ortalama **1-2 MB** arasında bir depolama alanı kaplıyor. Evet, şaşırtıcı olabilir ama durum gerçekten böyle! Peki, içeriklerimiz ne kadar alan kaplıyor? HUGO kullanırken içeriklerimizi *".md"* uzantısıyla yani *"Markdown"* kullanarak oluşturuyoruz. Blogunuzda yayınlamak için oluşturacağınız *1000 kelimelik* markdown belgesinin kaplayacağı alan ortalama **"10-15 KB** oluyor. Yani bu da demek oluyor ki; ortalama 1000 kelimelik yazacağınız **60 blog yazısı** toplamda sadece **1 MB** civarında bir yer kaplayacak.
+1. **Depo Alanı Sınırı:** GitHub, genel olarak depolarının toplam büyüklüğünün **1 GB**'dan fazla olmasına izin vermiyor. Bu da bizim web site boyutumuzun da bu sınırı aşmaması gerektiği anlamına geliyor. Eğer web sitenizde kullandığınız görsel, video vb. büyük boyutlu belgeleri deponuzda barındırmazsanız, HUGO altyapısında bu depolama alanı bize fazlasıyla yetecektir. Genel olarak HUGO'nın dosyaları ortalama **1-2 MB** arasında bir depolama alanı kaplıyor. Evet, şaşırtıcı olabilir ama durum gerçekten böyle! Peki, içeriklerimiz ne kadar alan kaplıyor? HUGO kullanırken içeriklerimizi *".md"* uzantısıyla yani *"Markdown"* kullanarak oluşturuyoruz. Blogunuzda yayınlamak için oluşturacağınız *1000 kelimelik* markdown belgesinin kaplayacağı alan ortalama **"10-15 KB** oluyor. Yani bu da demek oluyor ki; ortalama 1000 kelimelik yazacağınız **60 blog yazısı** toplamda sadece **1 MB** civarında bir yer kaplayacak.
 
-> ⚠️ Hem depolama alanı hem de bant genişliği konusunda önem arz eden bir durum var! Daha önce de belirttiğimiz gibi eğer fotoğraf, video, resim vb. görsel içerikleri deponuzda barındırırsanız bu kullanım değerli oldukça yüksek boyutlara çıkacaktır. Bu da kullanım durumunuza göre GitHub Pages sınırlarına çok daha kolay bir şekilde ulaşmanız anlamına gelir! Yapmanız gereken; fotoğraf, resim vb. içerikler için herhangi bir resim barındıcırı hizmeti kullanabilir veya kendi resim sunucunuzu oluşturubilirsiniz. Video gibi içerikleriniz için *YouTube, Vimeo* gibi platformları tercih edebilirsiniz. 
+> ⚠️ Hem depolama alanı hem de bant genişliği konusunda önem arz eden bir durum var! Daha önce de belirttiğimiz gibi eğer fotoğraf, video, resim vb. görsel içerikleri deponuzda barındırırsanız bu kullanım değerleri oldukça yüksek boyutlara çıkacaktır. Bu da kullanım durumunuza göre GitHub Pages sınırlarına çok daha kolay bir şekilde ulaşmanız anlamına gelir! Yapmanız gereken; fotoğraf, resim vb. içerikler için herhangi bir resim barındıcırı hizmeti kullanabilir veya kendi resim sunucunuzu oluşturubilirsiniz. Video gibi içerikleriniz için *YouTube, Vimeo* gibi platformları tercih edebilirsiniz. 
 
 2. **Deployment ve Action Sınırları:** GitHub Pages üzerinde gerçekleştirdiğiniz işlemlerin deploy (dağıtım) süreleri **10** dakikayı aşmamalıdır. Yani tek seferde çok büyük bir dosya deploy ederseniz bu durum muhtemelen işlemin **zaman aşımına** uğraması anlamına gelecektir. Aynı zamanda yapacağınzı her değişiklik *"GitHub Actions"* iş akışı üzerinde bir veya birkaç işlem başlatacaktır. Saatlik olarak bu iş akışı liminitiniz ise **10** olarak sınırlandırılmıştır. 
 
@@ -105,22 +105,25 @@ Depoyu oluşturduktan sonra lokal projemizi depoya göndermemiz gerekiyor. Bunun
 
 ```properties
 git add . 
-git commit -m "İlk HUGO Kurulumu" // Burda tırnak içerisindeki kısma kendinize göre yaptığınız işlemler hakkındaki yorumu girebilirsiniz.
-git remote add origin https://github.com/kullanici-adiniz/depo-isminiz.git // Burada kullanıcı adı ve depo ismini düzenleyiniz!
+git commit -m "İlk HUGO Kurulumu"
+## Burda tırnak içerisindeki kısma kendinize göre yaptığınız işlemler hakkındaki yorumu girebilirsiniz.
+git remote add origin https://github.com/kullanici-adiniz/depo-isminiz.git
+## Burada kullanıcı adı ve depo ismini düzenleyiniz!
 git branch -M main
 git push -u origin main
 ```
 >⚠️ Bu aşamada terminal sizden Github kullanıcı adı ve şifrenizi isteyecektir. Burada şifre olarak kullanmak için bir "Token" oluşturmanız gerekiyor. Bunun için Github Settings>Developer Settings>Personel access tokens>Tokens(classic)>Generete New Token aşamalarını izleyerek **"repo ve workflow"** yetkileri olan bir token oluşturmanız gerekiyor. Bunu terminal üzerinde Github şifremiz olarak kullanacağız!
 
-Bu aşamada dosyalarımız artık Github depomuza gönderilmiş oluyor. Ancak "Deplo" aşamasında sorun yaşamamak için bir ayar yapmamız lazım. 
+Bu aşamada dosyalarımız artık Github depomuza gönderilmiş oluyor. Ancak "Deploy" aşamasında sorun yaşamamak için bir ayar yapmamız lazım. 
 
->ℹ️ Blog klasörümüzde "Gizli Klasörleri Göster" seçeneğini aktif etmeli ve ardından *".github/workflows"* klasörlerini oluşturalım. Bu dizine **"hugo.yaml"** isimli bir dosya oluşuturup bu dosyayı da [Hugo Host on Github Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) sayfasında gösterildiği şeklilde yapılandıralım. (Step 6'da belirtilen kodu dosya içerisine kopyala yapıştır yapmanzı yeterli olacaktır)
+>ℹ️ Blog klasörümüzde "Gizli Klasörleri Göster" seçeneğini aktif etmeli ve ardından *".github/workflows"* klasörlerini oluşturmalıyız. Bu dizine **"hugo.yaml"** isimli bir dosya oluşuturup bu dosyayı da [Hugo Host on Github Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) sayfasında gösterildiği şeklilde yapılandıralım. (Step 6'da belirtilen kodu dosya içerisine kopyala yapıştır yapmanız yeterli olacaktır)
 
 Daha sonrasında lokal üzerinde bazı değişiklikler yaptığımız için bu değişiklikleri tekrardan Github depomuza göndermemiz gerekecek. Bunun için terminalde;
 
 ```properties
 git add . 
-git commit -m "Create a Github Workflow HUGO.YAML" // Burda tırnak içerisindeki kısma kendinize göre yaptığınız işlemler hakkındaki yorumu girebilirsiniz.
+git commit -m "Create a Github Workflow HUGO.YAML"
+## Burda tırnak içerisindeki kısma kendinize göre yaptığınız işlemler hakkındaki yorumu girebilirsiniz.
 git push -u origin main
 ```
 Bu aşamadan sonra deponun "Settings" kısmına gelmeniz ve sonrasında "Pages" sayfasına girmeniz gerekiyor. Açılan sayfada "Branc" kısmını **"main"** olarak ayarlayıp kaydetmelisiniz. Bu aşamadan sonra artık HUGO blogumuz deploy edilmeye başlamıştır. Aşamaları *"Actions"* kısmından takip edebilirsiniz. 
@@ -135,4 +138,4 @@ Bu ayarı yaptıktan sonra aktif olabilmesi için tekrardan git komutlarıyla de
 
 >ℹ️ Eğer web sitenizi özel bir domain üzerinden yayınlamak istiyorsanız, yine "Pages" sayfasında yer alan "Custom Domain" kısmındaki yapılandırmaları takip etmeniz gerekiyor. Burası çok ayrı bir kategori olduğu için yazı da detaylarına yer vermeyeceğim ancak video üzerinden nasıl yapılandırılması gerektiğine değindim.
 
-Tüm yapılandırmaları tamamladıktan sonra artık web siteniz yayınlanmış durumda olacaktır. HUGO ve kullandığınız temaların birçok eklentileri ve özellikleri olabilir. Bunları ilgili wiki sayfalarından inceleyebilirsiniz. Bu özelliklerle göre kendi sayfalarınızı düzenleyebilir ve yayınlayabilirsiniz. 
+Tüm yapılandırmaları tamamladıktan sonra artık web siteniz yayınlanmış durumda olacaktır. HUGO ve kullandığınız temaların birçok eklentileri ve özellikleri olabilir. Bunları ilgili wiki sayfalarından inceleyebilirsiniz. Bu özelliklere göre kendi sayfalarınızı düzenleyebilir ve yayınlayabilirsiniz. 
